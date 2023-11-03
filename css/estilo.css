@@ -96,6 +96,17 @@
     grid-area: footer;
 }
 
+.logos{
+    width: 40px;
+    margin: 10px;
+    display: flex;
+    
+}
+
+h3{
+    display: inline-block;
+}
+
 @media screen and (max-width:950px){
     .grid-container{
         width: 100%;
