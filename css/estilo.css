@@ -14,7 +14,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 200px 100px 400px 150px ;
+    grid-template-rows: 200px 100px 400px 100px ;
     grid-template-areas: 
     "header header header"
     "nav nav nav"
@@ -26,6 +26,13 @@
     background-color: #FF5FF3;
     grid-area: header;
 }
+
+/*---- HEADER ----*/
+
+.encabezado{
+    background-color: #FF5FF3
+}
+
 
 .encabezado .imgLogo{
     width: 157px;
@@ -64,6 +71,8 @@
     border-radius: 50px;
 }
 
+/*---- MAIN ----*/
+
 .contenido{
     background-color: white;
     grid-area: main;
@@ -90,6 +99,10 @@
     border-radius: 5%;
     margin: 10px;
 }
+
+/*---- FOOTER ----*/
+
+
 
 .pie{
     background-color: #FF5FF3;
@@ -166,7 +179,7 @@ h3{
 
 
 
-/*Biografia */
+/*---- Biografia ----*/
 .p2{
     margin: 10px;
     padding:5px ;
@@ -176,15 +189,24 @@ h3{
     height: 250px;
 }
 
+.contenedorVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoUno .contenedorVideo div{
+    width: 400px;
+    height: 300px;
+}
 
 
 
 
-/* galeria */
 
 
 
-
+/*---- GALERIA ----*/
 
 .contenedorFotos{
     display: flex;
@@ -200,6 +222,7 @@ h3{
     border: 2px double black;
     margin: 10px;
     opacity: 0.4;
+    object-fit: cover;
 }
 
 .galeria .contenedorFotos div img:hover{
