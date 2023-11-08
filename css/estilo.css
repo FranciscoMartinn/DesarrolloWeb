@@ -14,7 +14,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 200px 100px 400px 150px ;
+    grid-template-rows: 200px 100px 400px 100px ;
     grid-template-areas: 
     "header header header"
     "nav nav nav"
@@ -27,11 +27,16 @@
     grid-area: header;
 }
 
+/*---- HEADER ----*/
+
+.encabezado{
+    background-color: #FF5FF3;
+}
+
 .encabezado .imgLogo{
     width: 157px;
     height: 200px;
 }
-
 
 .menu{
     background-color: burlywood;
@@ -41,7 +46,6 @@
 .menu{
     background-color: rgb(5, 5, 5);
     list-style: none;
-    
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
@@ -63,6 +67,9 @@
     background-color: #FF5FF3;
     border-radius: 50px;
 }
+
+
+/*---- MAIN ----*/
 
 .contenido{
     background-color: white;
@@ -90,6 +97,9 @@
     border-radius: 5%;
     margin: 10px;
 }
+
+
+/*---- FOOTER ----*/
 
 .pie{
     background-color: #FF5FF3;
@@ -168,15 +178,25 @@ h3{
 
 /*Biografia */
 .p2{
+    background-color:rgba(255, 255, 255, 0.808) ;
     margin: 10px;
     padding:5px ;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    width: 700px;
-    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
+.fondoB{
+    background-image: url(../audios/html/fotos/fondoAsado.jpg!d);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 
 
@@ -200,6 +220,7 @@ h3{
     border: 2px double black;
     margin: 10px;
     opacity: 0.4;
+    object-fit: cover;
 }
 
 .galeria .contenedorFotos div img:hover{
