@@ -13,14 +13,13 @@
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
     grid-template-rows: 200px 100px 400px 100px ;
-    grid-template-rows: 200px 100px 400px 100px ;
+    grid-template-rows: 200px 100px 400px 70px ;
     grid-template-areas: 
     "header header header"
     "nav nav nav"
     "main main main"
-    "footer footer footer";
+    "footer footer footer"
 }
 
 .grid-container .encabezado{
@@ -169,7 +168,7 @@ h3{
 /*---- Biografia ----*/
 
 .fondoB{
-    background-image: url(../audios/html/fotos/paisajeymate.jpeg);
+    background-image: url(../audios/html/fotos/fondoburga.jpg);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -178,19 +177,37 @@ h3{
     background-attachment: fixed;
 }
 
+.contenedorBiografia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .tituloBio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(255, 255, 255, 0.315);
+    font-size: xx-large;
 }
 
-.videoUno{
-    display: flex;
-    justify-content: center;
+.tituloBio2{
+    background-color: rgba(255, 255, 255, 0.315);
+    font-size: xx-large;
+}
+
+.fondoB .contenedorBiografia div p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.459);
+    font-size: x-large;
+}
+
+.fondoB .contenedorBiografia .fotosBio img{
+    width: 400px;
+    height: 400px;
+    border-radius: 5%;
+    margin: 20px;
     align-items: center;
 }
-
 /*---- GALERIA ----*/
 
 .contenedorFotos{
