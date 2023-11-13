@@ -282,11 +282,16 @@ h3{
 }
 
 .contenedorMultimedia div img{
-    width: 800px;
-    height: 500px;
-    margin: 10px;
+    width: 700px;
+    height: 450px;
+    margin: 25px;
     border: solid black 2px;
+    transition: 0.5s;
     object-fit: cover;
+}
+
+.contenedorMultimedia div img:hover{
+    transform: scale(1.1);
 }
 
 /*---- CONTACTO ----*/
@@ -338,6 +343,12 @@ h3{
 .contenedorContacto div img{
     width: 500px;
     height: 500px;
-    margin: 10px;
+    margin: 20px;
     border: solid black 2px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.contenedorContacto div img:hover{
+    transform: scale(1.1);
 }
