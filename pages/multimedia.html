@@ -19,19 +19,19 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <h2><a href="../index.html">Inicio</a></h2>
+                    <a href="../index.html">Inicio</a>
                 </li>
                 <li>
-                    <h2><a href="biografia.html">Biografia</a></h2>
+                    <a href="biografia.html">Biografia</a>
                 </li>
                 <li>
-                    <h2><a href="multimedia.html">Multimedia</a></h2>
+                    <a href="multimedia.html">Multimedia</a>
                 </li>
                 <li>
-                    <h2> <a href="contacto.html">Contacto</a></h2>
+                    <a href="contacto.html">Contacto</a>
                 </li>
                 <li>
-                    <h2> <a href="galeria.html">Galeria</a></h2>
+                    <a href="galeria.html">Galeria</a>
                 </li>
             </ul>
         </nav>
@@ -48,11 +48,31 @@
             </div>
             <div class="cancion">
                 <audio src="../audios/html/audios/Uni, Carre, Santutu - NUMERO DESCONOCIDO (Official Visualizer).mp3"
-                controls></audio>
+                    controls></audio>
             </div>
-            <div>
-                <img src="../audios/html/fotos/NumeroDesconocidoFondo.jpg" alt="Cancion">
-            </div>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../audios/html/fotos/NumeroDesconocidoFondo.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../audios/html/fotos/unicarretut.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../audios/html/fotos/carretutuuni.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
         </section>
     </main>
     <footer class="pie">

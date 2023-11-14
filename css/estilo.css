@@ -22,15 +22,12 @@
     "footer footer footer"
 }
 
-.grid-container .encabezado{
-    background-color: #FF5FF3;
-    grid-area: header;
-}
 
 /*---- HEADER ----*/
 
 .encabezado{
     background-color: #FF5FF3;
+    grid-area: header;
 }
 
 .encabezado .imgLogo{
@@ -39,16 +36,12 @@
 }
 
 .menu{
-    background-color: burlywood;
-    grid-area: nav;
-}
-
-.menu{
     background-color: rgb(5, 5, 5);
     list-style: none;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
+    grid-area: nav;
 }
 .menu li{
     display: inline-block;
@@ -60,6 +53,7 @@
     text-decoration: none;
     display: inline-block;
     color: rgb(255, 255, 255);
+    
 
 }
 .menu li a:hover{
@@ -73,7 +67,6 @@
 .contenido{
     background-color: white;
     grid-area: main;
-    
 }
 
 .fotos{
@@ -162,6 +155,14 @@ h3{
 
     .fotos .ger1{
         margin-top: 60px;
+    }
+
+    .contenedorFotos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: black;
     }
 }
 

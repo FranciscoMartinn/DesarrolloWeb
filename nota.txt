@@ -407,3 +407,25 @@ h3{
     background-position: center;
     background-attachment: fixed;
 }
+
+.grid-container .encabezado{
+    background-color: #FF5FF3;
+    grid-area:header;
+}
+
+.pie{
+    background-color: #FF5FF3;
+    grid-area: footer;
+    div{
+        h3{
+            display: inline-block;
+            a{
+                .logos{
+                    width: 40px;
+                    margin: 10px;
+                    display: flex;
+                }
+            }
+        }
+    }
+}
