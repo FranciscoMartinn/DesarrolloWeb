@@ -429,3 +429,65 @@ h3{
         }
     }
 }
+
+@media screen and (max-width:950px){
+    .grid-container{
+        width: 100%;
+        margin: 0;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: 200px 200px 800px 150px ;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "main main"
+        "footer footer";
+    }
+    .menu{
+        background-color: rgb(5, 5, 5);
+    }
+
+    .fotos{
+        .ger1{
+            margin-top: 150px;
+        }
+    }
+}
+@media screen and (max-width:600px){
+    .grid-container{
+        width: 100%;
+        margin: 0;
+        grid-template-columns:1fr ;
+        grid-template-rows: 200px 200px 1100px  150px ;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    }
+    .grid-container{
+        .encabezado{
+            background-color: #FF5FF3;
+        }
+    }
+
+    .fotos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .fotos{
+        .ger1{
+            margin-top: 60px;
+    }
+    }
+
+    .contenedorFotos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: black;
+    }
+}
