@@ -1,0 +1,40 @@
+.galeria{
+    div{
+        .tituloGaleria{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: xx-large;
+            color: white;
+            background-color: black;
+        }
+        }
+    .contenedorFotos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: black;
+        div{
+            img{
+                width: 340px;
+                height: 385px;
+                border: 2px double black;
+                margin: 10px;
+                opacity: 0.4;
+                object-fit: cover;
+                object-fit: cover;
+                &:hover{
+                    opacity: 1;
+                    border: solid white 2px;
+                    border-radius: 10px;
+                }
+            }
+        }
+        div{
+            border-radius: 20px;
+            padding: 10px;
+        }
+}
+}

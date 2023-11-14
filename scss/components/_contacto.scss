@@ -1,0 +1,60 @@
+.fondoC{
+    background-image: url(../audios/html/fotos/fondoContacto.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    .contenedorContacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        div{
+            .tituloContacto{
+                background-color: rgb(0, 255, 255);
+                font-size: xx-large;
+                border-radius: 10px;
+                font-family: monospace;
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+        div{
+            .subTituloC{
+                background-color: rgb(0, 255, 255);
+                font-size: xx-large;
+                font-family: monospace;
+                border-radius: 10px;
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+        div{
+            .subTituloC2{
+                background-color: rgb(0, 255, 255);
+                font-size: xx-large;
+                font-family: monospace;
+                border-radius: 10px;
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+        div{
+            a{
+                img{
+                    width: 500px;
+                    height: 500px;
+                    margin: 20px;
+                    border: solid black 2px;
+                    transition: 0.5s;
+                    object-fit: cover;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
