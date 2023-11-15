@@ -237,11 +237,13 @@
     margin: 10px;
     opacity: 0.4;
     object-fit: cover;
-    object-fit: cover; }
+    object-fit: cover;
+    transition: 0.5s; }
     .galeria .contenedorFotos div img:hover {
       opacity: 1;
       border: solid white 2px;
-      border-radius: 10px; }
+      border-radius: 10px;
+      transform: scale(1.1); }
   .galeria .contenedorFotos div {
     border-radius: 20px;
     padding: 10px; }

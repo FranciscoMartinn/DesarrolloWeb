@@ -25,10 +25,12 @@
                 opacity: 0.4;
                 object-fit: cover;
                 object-fit: cover;
+                transition: 0.5s;
                 &:hover{
                     opacity: 1;
                     border: solid white 2px;
                     border-radius: 10px;
+                    transform: scale(1.1);
                 }
             }
         }
