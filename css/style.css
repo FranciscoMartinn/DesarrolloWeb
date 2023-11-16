@@ -269,6 +269,9 @@
     grid-template-areas: "header" "nav" "main" "footer"; }
   .grid-container .encabezado {
     background-color: #FF5FF3; }
+    .grid-container .encabezado .imgLogo {
+      width: 157px;
+      height: 200px; }
   .fotos {
     display: flex;
     flex-direction: column;

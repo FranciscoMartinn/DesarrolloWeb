@@ -38,10 +38,8 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    .contenedorBiografia{display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+    .contenedorBiografia{
+        @include flex(flex,column,space-around,center);
         div{
             .tituloBio{
                 background-color: rgba(255, 255, 255, 0.315);
