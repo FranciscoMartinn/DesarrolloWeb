@@ -77,8 +77,11 @@
 .pie{
     background-color: #FF5FF3;
     grid-area: footer;
-    h3{
-        display: inline-block;
+    div{
+        display: flex;
+        a{
+            justify-content: space-around;
+        }
         .logos{
             width: 40px;
             margin: 10px;
