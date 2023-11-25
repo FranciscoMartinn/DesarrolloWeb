@@ -1,5 +1,35 @@
 /* reset */
-*{ 
+* {
     margin: 0;
     padding: 0;
+}
+
+.inicio1 {
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    &:hover {
+        color: rgb(0, 0, 0);
+        background-color: #FF5FF3;
+        border-radius: 50px;
+    }
+}
+
+.dropdown-menu{
+    li{
+        .fotito1{
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            &:hover {
+                color: rgb(0, 0, 0);
+                background-color: #FF5FF3;
+                border-radius: 50px;
+        }
+    }
+}
 }

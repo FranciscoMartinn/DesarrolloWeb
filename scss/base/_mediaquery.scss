@@ -52,7 +52,8 @@
         width: 350px;
         height: 250px;
         border-radius: 5%;
-        margin: 10px;}
+        margin: 10px;
+        }
 
     .fotos{
         display: flex;
@@ -63,10 +64,11 @@
     }
 
     .fotos{
-        .ger1{
-            margin-top: 20px;
+        div{
+            margin-top: 150px;
+        }
     }
-    }
+    
 
     .contenedorFotos{
         display: flex;

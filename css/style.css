@@ -3,6 +3,28 @@
   margin: 0;
   padding: 0; }
 
+.inicio1 {
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: white; }
+  .inicio1:hover {
+    color: black;
+    background-color: #FF5FF3;
+    border-radius: 50px; }
+
+.dropdown-menu li .fotito1 {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  color: white; }
+  .dropdown-menu li .fotito1:hover {
+    color: black;
+    background-color: #FF5FF3;
+    border-radius: 50px; }
+
 .grid-container {
   width: 100%;
   margin: 0 auto;
@@ -292,8 +314,8 @@
     flex-direction: row;
     justify-content: space-around;
     text-align: center; }
-  .fotos .ger1 {
-    margin-top: 20px; }
+  .fotos div {
+    margin-top: 150px; }
   .contenedorFotos {
     display: flex;
     flex-direction: column;

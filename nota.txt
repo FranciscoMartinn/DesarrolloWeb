@@ -491,3 +491,30 @@ h3{
         background-color: black;
     }
 }
+
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="biografia.html">Biografia</a>
+                </li>
+                <li>
+                    <a href="multimedia.html">Multimedia</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+
+rgb(5, 5, 5)
