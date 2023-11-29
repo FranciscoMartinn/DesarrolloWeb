@@ -322,7 +322,7 @@
     justify-content: space-around;
     background-color: black; } }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 450px) {
   .grid-container {
     width: 100%;
     margin: 0;
@@ -357,7 +357,7 @@
       width: 450px;
       height: 200px; }
   .fondoB .contenedorBiografia .videoUno video {
-    width: 450px;
+    width: 430px;
     height: 300px; }
   .fondoC .contenedorContacto div a img {
     width: 400px;
