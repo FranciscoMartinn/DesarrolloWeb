@@ -518,3 +518,18 @@ h3{
 
 
 rgb(5, 5, 5)
+
+
+
+    .fotos{
+        div{
+            margin-top: 150px;
+            }
+        }
+    .contenedorFotos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: black;
+        }
