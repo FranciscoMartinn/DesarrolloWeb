@@ -361,4 +361,13 @@
     height: 300px; }
   .fondoC .contenedorContacto div a img {
     width: 400px;
-    height: 400px; } }
+    height: 400px; }
+  .fondoM .contenedorMultimedia .carousel img {
+    width: 300px;
+    height: 235px;
+    margin: 25px;
+    border: solid black 2px;
+    transition: 0.5s;
+    object-fit: cover; }
+    .fondoM .contenedorMultimedia .carousel img:hover {
+      transform: scale(1.1); } }

@@ -533,3 +533,8 @@ rgb(5, 5, 5)
         justify-content: space-around;
         background-color: black;
         }
+
+
+        
+carousel slide
+
