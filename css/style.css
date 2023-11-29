@@ -320,7 +320,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: black; } }
+    background-color: black; }
+  .fondoB .contenedorBiografia .videoUno video {
+    width: 540px;
+    height: 300px; } }
 
 @media screen and (max-width: 450px) {
   .grid-container {
